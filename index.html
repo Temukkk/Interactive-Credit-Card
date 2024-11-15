@@ -13,9 +13,10 @@
       <div class="card-list">
         <div class="card-item" v-bind:class="{ '-active' : isCardFlipped }">
           <div class="card-item__side -front">
-            <div class="card-item__focus" v-bind:class="{'-active' : focusElementStyle }" v-bind:style="focusElementStyle" ref="focusElement"></div>
+            <div class="card-item__focus" v-bind:class="{'-active' : focusElementStyle }" v-bind:style="focusElementStyle" ref="focusElement">
+            </div>
             <div class="card-item__cover">
-            <img src="./images/" alt="">
+              <img src="images/7.jpg" alt="">
             </div>
             
             <div class="card-item__wrapper">
@@ -166,8 +167,10 @@
     
   </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
-<script src='https://unpkg.com/vue-the-mask@0.11.1/dist/vue-the-mask.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'>
+  </script>
+<script src='https://unpkg.com/vue-the-mask@0.11.1/dist/vue-the-mask.js'></script>
+<script  src="./script.js"></script>
 
 </body>
 </html>
